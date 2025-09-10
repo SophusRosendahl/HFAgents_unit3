@@ -1,5 +1,5 @@
 datasets 
-smolagents 
+smolagents==1.18.0
 langchain-community 
 rank_bm25
 duckduckgo-search
