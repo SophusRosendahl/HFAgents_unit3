@@ -1,23 +1,9 @@
-# Python
+# Python cache files
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.so
-*.egg-info/
-*.egg
-dist/
-build/
 
 # Virtual environment
 venv/
-
-# Jupyter
-.ipynb_checkpoints
-
-# IDEs & editors
-.vscode/
-.idea/
 
 # macOS / Windows system files
 .DS_Store

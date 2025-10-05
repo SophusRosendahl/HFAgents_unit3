@@ -3,3 +3,5 @@ smolagents==1.18.0
 langchain-community 
 rank_bm25
 duckduckgo-search
+gradio==5.49.0
+gradio_client==1.13.3
