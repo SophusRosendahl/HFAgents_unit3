@@ -1,1 +1,2 @@
 this is a test file for Git.
+Another line added for testing Git workflow.
