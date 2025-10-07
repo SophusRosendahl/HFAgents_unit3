@@ -3,7 +3,6 @@ from langchain_community.retrievers import BM25Retriever
 from langchain.docstore.document import Document
 import datasets
 
-
 class GuestInfoRetrieverTool(Tool):
     name = "guest_info_retriever"
     description = "Retrieves detailed information about gala guests based on their name or relation."
@@ -48,6 +47,3 @@ def load_guest_dataset():
 
     # Return the tool
     return GuestInfoRetrieverTool(docs)
-
-
-

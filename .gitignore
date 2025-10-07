@@ -3,7 +3,12 @@ __pycache__/
 *.py[cod]
 
 # Virtual environment
+.venv/
 venv/
+venv 2
+
+# gradio
+.gradio
 
 # macOS / Windows system files
 .DS_Store
