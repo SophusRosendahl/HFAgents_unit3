@@ -1,13 +1,20 @@
 import gradio as gr
 import random
-from smolagents import GradioUI, CodeAgent, HfApiModel
+from smolagents import GradioUI, CodeAgent
+#from smolagents import HfApiModel
+from smolagents import InferenceClientModel
+
 
 # Import our custom tools from their modules
 from tools import DuckDuckGoSearchTool, WeatherInfoTool, HubStatsTool
 from retriever import load_guest_dataset
 
 # Initialize the Hugging Face model
-model = HfApiModel()
+#model = HfApiModel()
+model = InferenceClientModel(
+    requests_per_minute=10,
+    max_tokens=512
+)
 
 # Initialize the web search tool
 search_tool = DuckDuckGoSearchTool()
